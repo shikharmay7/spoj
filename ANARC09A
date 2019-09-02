@@ -14,7 +14,7 @@ int main()
         if(str[0]=='-')
             return 0;
         
-        if(str.length()%2==1)
+        if(str.length()%2==1)		//can only be balanced if the length is even!
         	return -1;
         
         vector<char> v;       //stack can also serve the same purpose
