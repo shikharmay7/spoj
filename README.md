@@ -1,2 +1,4 @@
 # spoj
-My Solutions to the problems hosted on Spoj 
+My Solutions to a few problems hosted on Spoj 
+
+ANARC09A - Seinfeld (dynamic-programming)
