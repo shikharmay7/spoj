@@ -1,7 +1,7 @@
     //FOXLINGS spoj
     #include<bits/stdc++.h>
     using namespace std;
-    map< long long int, long long int >foxling;
+    map< long long int, long long int >foxling;     //map is used since no of foxlings can be upto 10^9 but the no of relations can be 10^5 at max which can be stored
      
     long long int root(long long int a)
     {
