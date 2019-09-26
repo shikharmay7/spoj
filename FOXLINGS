@@ -1,0 +1,43 @@
+    //FOXLINGS spoj
+    #include<bits/stdc++.h>
+    using namespace std;
+    map< long long int, long long int >foxling;
+     
+    long long int root(long long int a)
+    {
+    	while(a!=foxling[a])
+    	{
+    		foxling[a]=foxling[foxling[a]];
+    		a = foxling[a];
+    	}
+    	return a;
+    }
+    int main()
+    {
+    	ios_base::sync_with_stdio(false);
+    	cin.tie(NULL);
+    	long long int n,m,count;
+    	
+    	cin>>n>>m;
+    	count = n;
+    	while(m--)
+    	{
+    		long long int a,b,ra,rb;
+    		cin>>a>>b;
+    		if(!foxling[a])
+    			foxling[a]=a;
+    		if(!foxling[b])
+    			foxling[b]=b;
+    		
+    		ra = root(a);
+    		rb = root(b);	
+    		if(ra!=rb)
+    		{
+    			count--;
+    			foxling[ra]=rb;
+    		}
+    	//	cout<<count<<endl;
+    	}
+    	cout<<count<<endl;
+    	return 0;
+    } 
