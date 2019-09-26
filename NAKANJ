@@ -34,7 +34,7 @@
     				}
     			}
     		}
-    		cout<<flag[end]<<endl; 
+    		cout<<flag[end]<<endl;      //return status of destination
     	}
     	return 0;
     } 
