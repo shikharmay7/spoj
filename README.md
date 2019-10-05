@@ -14,3 +14,5 @@ ACPC11B - Between the Mountains
 ADDREV - Adding Reversed Numbers
 
 AIBOHP - Aibohphobia
+
+ALTSEQ - Alternating Sequences
