@@ -10,3 +10,5 @@ NAKANJ - Minimum Knight Moves
 FOXLINGS - Foxlings
 
 ACPC11B - Between the Mountains
+
+ADDREV - Adding Reversed Numbers
