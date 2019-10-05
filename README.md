@@ -16,3 +16,5 @@ ADDREV - Adding Reversed Numbers
 AIBOHP - Aibohphobia
 
 ALTSEQ - Alternating Sequences
+
+ARMY - Army Strength
