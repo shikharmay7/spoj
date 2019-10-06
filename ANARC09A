@@ -25,7 +25,7 @@ int main()
                 if(v.back()=='{')     // {} is balanced hence popped 
                     v.pop_back();
                 else
-					v.push_back(str[i]);    //else push
+			v.push_back(str[i]);    //else push
             }
             else
             {
@@ -33,7 +33,7 @@ int main()
             }
             
         }
-        // the vector contents can be expressed by regex }*{* where * is the Kleem Closure.
+        // the vector contents can be expressed by regex }*{* where * is the Kleene Closure.
         float c1=0,c2=0;    //c1 & c2 maintain the count of '{' & '}' respectively.
         for(int i=v.size()-1;i>=0;i--)
         {
