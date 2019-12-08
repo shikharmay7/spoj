@@ -18,3 +18,5 @@ AIBOHP - Aibohphobia
 ALTSEQ - Alternating Sequences
 
 ARMY - Army Strength
+
+RIVALS - Rivals
