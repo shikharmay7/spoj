@@ -20,3 +20,6 @@ ALTSEQ - Alternating Sequences
 ARMY - Army Strength
 
 RIVALS - Rivals
+
+AGGRCOW - Aggressive Cows
+
