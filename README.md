@@ -23,3 +23,5 @@ RIVALS - Rivals
 
 AGGRCOW - Aggressive Cows
 
+FARIDA - Princess Farida
+
