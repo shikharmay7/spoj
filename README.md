@@ -35,6 +35,6 @@ ACODE - Alphacode
 
 WACHOVIA - Wachovia Bank
 
-TRT - Treat For The Cows
+TRT - Treats For The Cows
 
 
