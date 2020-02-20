@@ -34,3 +34,7 @@ ACPC10D - Tri-Graphs
 ACODE - Alphacode
 
 WACHOVIA - Wachovia Bank
+
+TRT - Treat For The Cows
+
+
