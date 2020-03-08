@@ -38,3 +38,7 @@ WACHOVIA - Wachovia Bank
 TRT - Treats For The Cows
 
 TWENDS - Two Ends
+
+ELIS - Easy Longest Increasing Subsequence
+
+
