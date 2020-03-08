@@ -41,4 +41,6 @@ TWENDS - Two Ends
 
 ELIS - Easy Longest Increasing Subsequence
 
+EDIST - Edit Distance
+
 
