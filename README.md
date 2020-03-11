@@ -27,6 +27,8 @@ FARIDA - Princess Farida
 
 ALIENS2 - Aliens at the train, again!
 
+NFURY - Training Land of Fury
+
 DCEPC501 - Save Thy Toys
 
 ACPC10D - Tri-Graphs
