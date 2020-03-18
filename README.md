@@ -45,4 +45,6 @@ ELIS - Easy Longest Increasing Subsequence
 
 EDIST - Edit Distance
 
+NY10E -  Non-Decreasing Digits
+
 
