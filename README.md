@@ -58,3 +58,6 @@ CRSCNTRY - Cross - Country
 COINS - Bytelandian Gold Coins
 
 MCOINS - Coins Game
+
+PARTY - Party Schedule
+
