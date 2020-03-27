@@ -1,0 +1,48 @@
+SPOJ submission 25639274 (CPP14) plaintext list. Status: AC, problem PIGBANK, contest SPOJ. By shikhar_may7 
+
+    #include<bits/stdc++.h>
+    using namespace std;
+    int main()
+    {
+    	int t;
+    	cin>>t;
+    	while(t--)
+    	{
+    		int wi, wf;
+    		cin>>wi>>wf;
+    		int wt = wf-wi;
+    		//cout<<"w"<<w<<endl;
+    		int dp[wt+1];
+    		memset(dp,-1,sizeof(dp));
+    		int n;
+    		cin>>n;
+    		int profit[n], weight[n];
+    		for(int i=0;i<n;i++)
+    		{
+    			int p,w;
+    			cin>>p>>w;
+    			profit[i]=p;
+    			weight[i]=w;
+    		}
+    		//cout<<"here wt"<<wt<<endl;
+    		dp[0]=0;	
+    		for(int i=0;i<=wt;i++)
+    		{
+    			for(int j=0;j<n;j++)
+    			{
+    				if(weight[j]<=i && dp[i-weight[j]]!=-1 && (dp[i]==-1 || profit[j]+dp[i-weight[j]]<=dp[i]))
+    					dp[i] = profit[j]+dp[i-weight[j]];
+    			}
+    		}
+    		if(dp[wt]==-1)
+    			cout<<"This is impossible."<<endl;
+    		else
+    			cout<<"The minimum amount of money in the piggy-bank is "<<dp[wt]<<"."<<endl;		
+    //		for(int i=0;i<=wt;i++)
+    //			cout<<dp[i]<<" ";
+    //		cout<<endl;
+    //		cout<<""<<dp[wt]<<endl;
+    	}
+    	
+    	return 0;
+    }
