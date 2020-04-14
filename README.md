@@ -63,3 +63,4 @@ MCOINS - Coins Game
 
 PARTY - Party Schedule
 
+PRIME1 - Prime Generator
