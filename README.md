@@ -64,3 +64,7 @@ MCOINS - Coins Game
 PARTY - Party Schedule
 
 PRIME1 - Prime Generator
+
+AE00 - Rectangles
+
+JULKA - Julka
