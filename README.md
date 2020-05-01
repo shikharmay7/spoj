@@ -80,3 +80,7 @@ MICEMAZE - Mice And Maze
 ELEVTRBL - Elevator Trouble
 
 AP2 - AP-Complete The Series (Easy)
+
+EIGHTS - Triple Fat Ladies
+
+STAMPS - Stamps
