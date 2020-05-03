@@ -84,3 +84,9 @@ AP2 - AP-Complete The Series (Easy)
 EIGHTS - Triple Fat Ladies
 
 STAMPS - Stamps
+
+AAC1 - Atul and Aastha Chronicles 1
+
+CONGRAPH - Connected country
+
+HIGHWAYS - Highways
