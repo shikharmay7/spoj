@@ -90,3 +90,7 @@ AAC1 - Atul and Aastha Chronicles 1
 CONGRAPH - Connected country
 
 HIGHWAYS - Highways
+
+PPATH - Prime Path
+
+ABCPATH - ABC Path
