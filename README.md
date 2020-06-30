@@ -96,3 +96,7 @@ PPATH - Prime Path
 ABCPATH - ABC Path
 
 BUGLIFE - A Bug's Life
+
+EC_P - Critical Edges
+
+SUBMERGE -  Submerging Islands
