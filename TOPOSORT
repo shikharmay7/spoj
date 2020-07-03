@@ -1,0 +1,87 @@
+//SPOJ submission 26221456 (CPP14) plaintext list. Status: AC, problem TOPOSORT, contest SPOJ. By shikhar_may7
+
+// I've done it using dfs, and the approach may seem a little outlandish, so I suggest using Kahn's Algorithm considering the indegree and maintaining a priority queue!
+
+    #include<bits/stdc++.h>
+    using namespace std;
+     
+    vector<int>adj[10005];
+    int visited[10005],recStack[10005];
+    vector<int>ans;
+     
+    bool isCyclic(int v)    // check cycle to avoid deadlock.
+    {
+    	if(visited[v]==0)
+    	{
+    		visited[v]=1;
+    		recStack[v]=1;
+    		
+    		for(int i=0;i<adj[v].size();i++)
+    		{
+    			int child = adj[v][i];
+    			if(visited[child]==0 && isCyclic(child))
+    				return true;
+    			else if(recStack[child]==1)
+    				return true;
+    		}
+    	}
+    	recStack[v]=0;
+    	return false;
+    }
+     
+    void dfs(int v)
+    {
+    	visited[v]=1;
+    	for(int i=0;i<adj[v].size();i++)
+    	{
+    		int child = adj[v][i];
+    		if(visited[child]==0)
+    			dfs(child);
+    	}
+    	ans.push_back(v);
+    }
+     
+    int main()
+    {
+    	int n,m;
+    	cin>>n>>m;
+    	while(m--)
+    	{
+    		int a,b;
+    		cin>>a>>b;
+    		adj[a].push_back(b);
+    	}
+    	
+    	int flag=0;
+    	for(int i=1;i<=n;i++)
+    	{
+    		sort(adj[i].begin(),adj[i].end(), greater<int>());  // sorted in reversed order for lexicographical ordering.
+    	}
+    	for(int i=1;i<=n;i++)
+    	{
+    		if(isCyclic(i))
+    		{
+    			flag=1;
+    			break;
+    		}
+    	}
+    	
+    	if(flag==1)
+    		cout<<"Sandro fails."<<endl;
+    	else
+    	{
+    		for(int i=1;i<=n;i++)
+    			visited[i]=0, recStack[i]=0;
+    			
+    		for(int i=n;i>=1;i--)   // iterating from the end to ensure lexicographical ordering
+    		{
+    			if(!visited[i])
+    				dfs(i);
+    		}
+    		reverse(ans.begin(),ans.end());
+    		for(int i=0;i<ans.size();i++)
+    			cout<<ans[i]<<" ";
+    		cout<<endl;
+    	}
+    	return 0;
+    } 
