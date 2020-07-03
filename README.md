@@ -100,3 +100,11 @@ BUGLIFE - A Bug's Life
 EC_P - Critical Edges
 
 SUBMERGE -  Submerging Islands
+
+TOPOSORT - Topological Sorting
+
+RMQSQ - Range Minimum Query
+
+LCA - Lowest Common Ancestor
+
+
