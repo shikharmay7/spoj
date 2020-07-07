@@ -107,4 +107,6 @@ RMQSQ - Range Minimum Query
 
 LCA - Lowest Common Ancestor
 
+RPLA - Answering the Boss
 
+MST - Minimum Spanning Tree
